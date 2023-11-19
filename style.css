@@ -131,3 +131,179 @@ body {
 .header-button:hover {
   background-color: rgb(0, 255, 213);
 }
+
+.card {
+  width: 349px;
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  margin-right: 31px;
+  background-color: #fff;
+  margin-top: -80px;
+  padding: 10px 10px;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.card-title span {
+  color: #bc9060;
+}
+.card-desc {
+  text-align: center;
+  justify-content: center;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #656363;
+}
+
+.cards-holder {
+  display: flex;
+  justify-content: center;
+}
+.history {
+  margin-top: 166px;
+  padding-bottom: 200px;
+}
+
+.history-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  margin-top: 21px;
+}
+.history-title span {
+  color: #d67e34;
+  width: 444px;
+  text-align: center;
+}
+
+.history-desc {
+  color: #656363;
+  font-size: 16px;
+  width: 444px;
+  text-align: center;
+}
+
+.history-number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.number-item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #bc9060;
+}
+
+.number-item span {
+  display: block;
+  color: #000;
+}
+
+.history-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-images {
+  position: relative;
+}
+
+.images1 {
+  position: absolute;
+  z-index: 0;
+  top: 62px;
+  left: -485px;
+}
+.images2 {
+  position: absolute;
+  z-index: 0;
+  top: -104px;
+  left: -330px;
+}
+.images3 {
+  position: absolute;
+  z-index: 0;
+  top: 238px;
+  left: -185px;
+}
+
+.black-block {
+  background-image: url(bg1.jpg);
+  padding: 80px 0px;
+}
+
+.left-title {
+  color: #d67e34;
+  font-family: "Tinos", serif;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.left-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.right-btn {
+  background-color: #ff7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  transition: background-color 0.2s linear;
+}
+
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dishes-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 132px;
+  margin-bottom: 139px;
+}
+.dishes-title span {
+  color: #d67e34;
+}
+
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+
+.burger-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.burgers-image {
+  margin-right: 20px;
+}
+
+.burger-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  margin-left: 20px;
+}
